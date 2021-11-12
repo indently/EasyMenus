@@ -11,12 +11,12 @@ struct ContentView: View {
     var body: some View {
         Menu {
             Button("Cancel", role: .destructive) {
-                print("Cancelled!")
+                // Do something
             }
             
             Menu {
                 Button(role: .destructive) {
-                    print("Reported!")
+                    // Do something
                 } label: {
                     Label("Report", systemImage: "flag.fill")
                 }
@@ -25,13 +25,13 @@ struct ContentView: View {
             }
             
             Button {
-                print("Downloaded!")
+                // Do something
             } label: {
                 Label("Download", systemImage: "tray.and.arrow.down.fill")
             }
             
             Button {
-                print("Shared!!")
+                // Do something
             } label: {
                 Label("Share", systemImage: "square.and.arrow.up")
             }
